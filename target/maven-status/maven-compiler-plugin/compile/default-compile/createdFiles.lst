@@ -1,6 +1,0 @@
-example/api/ScoreboardController.class
-example/api/enums/ActivityType.class
-authorization/api/AuthController.class
-starter/FallDetectionApplication.class
-example/api/dto/requests/CreateScoreRowRequest.class
-app/configuration/SwaggerConfiguration.class
