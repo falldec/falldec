@@ -15,12 +15,12 @@
         <version>2.0.0.RELEASE</version>
     </parent>
 
-
     <properties>
         <java.version>1.8</java.version>
         <springfox-swagger2.version>2.7.0</springfox-swagger2.version>
         <h2database.vesrion>1.4.194</h2database.vesrion>
         <lombok.version>1.16.16</lombok.version>
+        <joinfaces.version>3.2.1</joinfaces.version>
     </properties>
 
     <dependencies>
@@ -60,6 +60,12 @@
             <scope>provided</scope>
         </dependency>
 
+        <dependency>
+            <groupId>org.joinfaces</groupId>
+            <artifactId>primefaces-spring-boot-starter</artifactId>
+            <version>${joinfaces.version}</version>
+        </dependency>
+        
     </dependencies>
 
     <build>

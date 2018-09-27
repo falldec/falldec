@@ -87,5 +87,27 @@
     <orderEntry type="library" name="Maven: org.springframework:spring-tx:5.0.4.RELEASE" level="project" />
     <orderEntry type="library" name="Maven: org.springframework:spring-aspects:5.0.4.RELEASE" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Maven: org.projectlombok:lombok:1.16.16" level="project" />
+    <orderEntry type="library" name="Maven: org.joinfaces:primefaces-spring-boot-starter:3.2.1" level="project" />
+    <orderEntry type="library" name="Maven: org.joinfaces:jsf-spring-boot-starter:3.2.1" level="project" />
+    <orderEntry type="library" name="Maven: org.joinfaces:tomcat-spring-boot-starter:3.2.1" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.tomcat.embed:tomcat-embed-jasper:8.5.28" level="project" />
+    <orderEntry type="library" name="Maven: org.eclipse.jdt:ecj:3.12.3" level="project" />
+    <orderEntry type="library" name="Maven: org.joinfaces:mojarra-spring-boot-starter:3.2.1" level="project" />
+    <orderEntry type="library" name="Maven: org.glassfish:javax.faces:2.3.4" level="project" />
+    <orderEntry type="library" name="Maven: org.joinfaces:omnifaces1-spring-boot-starter:3.2.1" level="project" />
+    <orderEntry type="library" name="Maven: org.omnifaces:omnifaces:1.14.1" level="project" />
+    <orderEntry type="library" name="Maven: org.joinfaces:joinfaces-autoconfigure:3.2.1" level="project" />
+    <orderEntry type="library" name="Maven: org.joinfaces:spring-security-jsf-taglib:3.2.1" level="project" />
+    <orderEntry type="library" name="Maven: javax.servlet:jstl:1.2" level="project" />
+    <orderEntry type="library" name="Maven: javax.enterprise:cdi-api:2.0" level="project" />
+    <orderEntry type="library" name="Maven: javax.interceptor:javax.interceptor-api:1.2" level="project" />
+    <orderEntry type="library" name="Maven: javax.inject:javax.inject:1" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: org.springframework.security:spring-security-taglibs:5.0.3.RELEASE" level="project" />
+    <orderEntry type="library" name="Maven: org.primefaces:primefaces:6.2" level="project" />
+    <orderEntry type="library" name="Maven: org.primefaces.extensions:primefaces-extensions:6.2.4" level="project" />
+    <orderEntry type="library" name="Maven: com.google.code.gson:gson:2.8.2" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.commons:commons-lang3:3.7" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: org.primefaces.extensions:resources-ckeditor:6.2.4" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: commons-io:commons-io:2.6" level="project" />
   </component>
 </module>
