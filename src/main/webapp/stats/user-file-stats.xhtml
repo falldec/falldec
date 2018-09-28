@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns:h="http://java.sun.com/jsf/html"
+      xmlns:p="http://primefaces.org/ui"
+      xmlns:f="http://java.sun.com/jsf/core"
+      xmlns:ui="http://java.sun.com/jsf/facelets">
+
+<h:body>
+    <ui:composition template="../template/commonLayout.xhtml">
+        <ui:define name="content">
+
+            <p:dataTable var="stat" value="#{userFileStatsView.userFileStats}" tableStyleClass="user_file_stats_table">
+
+                <p:column headerText="#{text['ufs_col_id']}">
+                    <h:outputText value="#{stat.id}"/>
+                </p:column>
+
+                <p:column headerText="#{text['ufs_username']}">
+                    <h:outputText value="#{stat.username}"/>
+                </p:column>
+
+                <p:column headerText="#{text['ufs_date']}">
+                    <h:outputText value="#{stat.creationDate}">
+                        <f:convertDateTime type="localDate" pattern="#{text['datetime']}"/>
+                    </h:outputText>
+                </p:column>
+
+                <p:column headerText="#{text['ufs_data_size']}">
+                    <h:outputText value="#{stat.numOfRecords}"/>
+                </p:column>
+
+                <p:column>
+                    <p:link id="search_tooltip" outcome="fall-data" styleClass="fa fa-search no-decoration"/>
+                    <p:tooltip for="search_tooltip" value="#{text['ufs_more_details']}"/>
+                </p:column>
+
+            </p:dataTable>
+
+        </ui:define>
+    </ui:composition>
+</h:body>
+
+</html>

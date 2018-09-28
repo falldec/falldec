@@ -1,0 +1,28 @@
+body {
+    margin: 30px;
+    padding-bottom: 4rem;
+}
+
+.footer {
+    position: absolute;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    padding: 1rem;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+.user_file_stats_table,
+.fall_data_table {
+    width: auto !important;
+}
+
+.align_right {
+    text-align: right;
+}
+
+.no-decoration {
+    text-decoration: none;
+}

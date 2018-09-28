@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns:h="http://java.sun.com/jsf/html"
+      xmlns:p="http://primefaces.org/ui"
+      xmlns:ui="http://java.sun.com/jsf/facelets" xmlns:f="http://java.sun.com/jsf/core">
+
+<h:body>
+    <ui:composition template="../template/commonLayout.xhtml">
+        <ui:define name="content">
+
+            <p:button id="back_button" outcome="user-file-stats" value="#{text['fd_back_button']}" icon="fa fa-arrow-circle-left"/>
+
+            <p:dataTable var="fData" value="#{fallDataView.fallDataSnapshots}" tableStyleClass="fall_data_table">
+
+                <p:column headerText="#{text['fd_col_id']}">
+                    <h:outputText value="#{fData.id}"/>
+                </p:column>
+
+                <p:column headerText="#{text['fd_pressure_value']}" styleClass="align_right">
+                    <h:outputText value="#{fData.pressureValue}"/>
+                </p:column>
+
+                <p:column headerText="#{text['fd_date']}">
+                    <h:outputText value="#{fData.creationTime}">
+                        <f:convertDateTime type="localDate" pattern="#{text['datetime']}"/>
+                    </h:outputText>
+                </p:column>
+
+            </p:dataTable>
+
+        </ui:define>
+    </ui:composition>
+</h:body>
+
+</html>
