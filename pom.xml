@@ -5,8 +5,8 @@
 
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>pl.itandrest</groupId>
-    <artifactId>fall-detector</artifactId>
+    <groupId>io.openshift.booster</groupId>
+    <artifactId>spring-boot-application</artifactId>
     <version>1.0-SNAPSHOT</version>
 
     <parent>
